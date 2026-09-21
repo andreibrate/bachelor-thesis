@@ -1,1 +1,25 @@
-data/raw
+# Raw datasets
+data/raw/**/*.csv
+data/raw/**/*.sav
+data/raw/**/*.dta
+data/raw/**/*.parquet
+data/raw/**/*.zip
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
